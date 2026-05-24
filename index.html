@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI English Coach</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>English Coach</h1>
+            <div id="status">Ready to practice</div>
+        </header>
+
+        <section id="setup">
+            <input type="text" id="topic" placeholder="e.g., Technology, Travel...">
+            <button id="startBtn">Start 15-Min Session</button>
+        </section>
+
+        <div id="chatBox"></div>
+
+        <section id="controls" style="display:none;">
+            <button id="micBtn">🎤 Speak Answer</button>
+            <div id="timer">15:00</div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
